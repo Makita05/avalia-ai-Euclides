@@ -1,0 +1,72 @@
+body {
+
+    height: 100vh;
+
+}
+
+header {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 15px 15px;
+
+}
+
+header > div {
+ 
+    text-align: center;
+
+}
+
+#logo {
+
+    background-color: aliceblue;
+    
+}
+
+#links {
+
+    background-color: bisque;
+
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+main > div {
+
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.coluna1 {
+
+    background-color: cadetblue;
+    width: 500px;
+    height: 700px;
+
+}
+
+.coluna2 {
+
+    background-color: burlywood;
+    width: 850px;
+    height: 700px;
+
+}
+
+.coluna3 {
+
+    background-color: khaki;
+    width: 500px;
+    height: 700px;
+
+}

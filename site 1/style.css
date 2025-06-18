@@ -1,0 +1,15 @@
+
+.container
+
+{
+    background-color: antiquewhite;
+  display: grid;
+  margin:0 25%;
+  
+
+  margin-top: 15%;
+
+  width: 50%;
+  justify-content: center;
+
+}

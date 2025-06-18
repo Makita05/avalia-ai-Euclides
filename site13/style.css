@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+    color: ghostwhite;
+    background-color: black;
+    padding: 10px;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    margin: 15%;
+    gap: 30px;
+}
+
+footer {
+    text-align: center;
+    color: ghostwhite;
+    background-color: black;
+    padding: 10px;
+    margin: 0%;
+}
+
+.container > div {
+   background-color: darkgray;
+    padding: 125px;
+}

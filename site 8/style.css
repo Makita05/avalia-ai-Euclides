@@ -1,0 +1,103 @@
+* {
+
+        font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+
+        background-color: burlywood;
+
+}
+
+header {
+        
+        display: block;
+        background-color: cornflowerblue;
+        text-align: center;
+        padding: 20px 0;
+
+}
+
+main {
+
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 55px;
+        background-color: darkgray;
+        padding: 20vh;
+
+}
+
+main > section {
+
+        background-color: antiquewhite;
+        border-radius: 3px;
+
+}
+
+.perfil {
+
+        width: 400px;
+        height: 400px;
+
+}
+
+.projetos {
+
+        width: 600px;
+        height: 400px;
+
+}
+
+.contatos {
+
+        width: 400px;
+        height: 400px;
+
+}
+
+.project-container {
+
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 10px;
+        padding: 3px;
+        height: 80%;
+
+}
+
+.project-container > div {
+
+        background-color: rgb(255, 234, 165);
+        border-style: groove;
+        text-align: center;
+
+}
+
+.contact-container {
+
+        padding: 25px;
+
+}
+
+input {
+
+        margin-top: 10%;
+
+}
+
+@media (max-width: 780px){
+
+        main {
+
+                grid-template-columns: 1fr;
+        }
+
+.projetos {
+
+        width: 400px;
+
+}
+
+}

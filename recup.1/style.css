@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+    color: ghostwhite;
+    background-color: black;
+    padding: 10px;
+    margin: 0%;
+}
+
+.container {
+    flex-direction: row;
+    padding: 0%;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 5%;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,auto) ;
+}
+
+.container > div {
+    background-color: darkgray;
+    padding: 125px;
+    flex-direction: row;
+}
+
+footer {
+    text-align: center;
+    color: ghostwhite;
+    background-color: black;
+    padding: 10px;
+    margin: 0%;
+}
+

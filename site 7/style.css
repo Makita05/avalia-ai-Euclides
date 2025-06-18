@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-color: rgb(255, 255, 255);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8,auto) ;
+    background-color: black;
+    justify-content: center;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.grid-container > div {
+    width: 60px;
+    height: 60px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}

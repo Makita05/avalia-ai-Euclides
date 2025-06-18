@@ -1,0 +1,18 @@
+header
+{
+    text-align: center;
+}
+
+main
+{
+    display: block;
+    width: 50%;
+    border: 15px solid burlywood;
+    padding: 50px;
+    margin: 20px auto;
+}
+
+footer
+{
+    text-align: center;
+}
